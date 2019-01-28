@@ -1,0 +1,85 @@
+body {
+
+    margin:                 0;
+    padding-top:            50px;
+
+}
+
+
+
+.content {
+
+    display:                block;
+    width:                  600px;
+    height:                 600px;
+    margin:                 auto;   /* margin: auto sets equal margins and ultimately centers the content */
+}
+
+
+
+h1 {
+
+    margin:                 10px;
+    font-family:            "Arial";
+    font-size:              18px;
+    color:                  #2f2e2e;
+    text-align:             center;
+}
+
+
+
+.gameTitle{
+
+    margin-top:             40px;
+    margin-bottom:          40px;
+}
+
+
+
+.gameContainer{
+    
+    margin:                 auto;   /* margin: auto sets equal margins and ultimately centers the content */
+    padding:                1em;
+    
+    height:                 100%;
+
+    display:                grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     1fr 1fr 1fr;
+    grid-column-gap:        1em;
+    grid-row-gap:           1em;
+
+    background-color:       rgb(194, 225, 235);
+    border-radius:          30px;
+
+
+}
+
+
+
+.gameContainer > div{
+
+    padding:                1em;
+
+    background:             rgb(238, 238, 238);
+    border-radius:          16px;
+    text-align:             center;
+    font-size:              24px;
+
+}
+
+
+
+.gameContainer > div:nth-child(odd){                    /* alternating cell colours */
+
+    background:             rgb(230, 230, 230);
+
+}
+
+
+
+.gameContainer > div:hover{
+
+    background:             #d1ecd7;
+
+}
